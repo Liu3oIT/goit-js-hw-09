@@ -74,9 +74,6 @@ const options = {
   time_24hr: true,
   defaultDate: new Date(),
   minuteIncrement: 1,
-  onClose(selectedDates) {
-    console.log(selectedDates[0].getTime());
-  },
 };
 let ontime = flatpickr(input, options);
 
